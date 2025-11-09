@@ -24,7 +24,7 @@ int main() {
         cout << "Enter your guess: ";
         
         if (!(cin >> guess)) {
-            cout << "Invalid input. Please enter a number." << endl;
+            cout << "Invalid input! Please enter a number." << endl;
             cin.clear();
             cin.ignore(10000, '\n');
             continue; 
